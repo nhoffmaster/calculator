@@ -132,6 +132,7 @@ public class Main extends Application{
         buttons.buttons[15].setFont(new Font(10));
         buttons.buttons[15].setOnAction(e -> {
             input.setText(input.getText().substring(0, input.getText().length() - 1));
+            result.getText().setText("");
         });
         
         buttons.buttons[16].setLayoutX(164);
@@ -139,6 +140,7 @@ public class Main extends Application{
         buttons.buttons[16].setFont(new Font(10));
         buttons.buttons[16].setOnAction(e -> {
             input.setText("");
+            result.getText().setText("");
         });
         
         
