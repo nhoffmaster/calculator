@@ -36,7 +36,7 @@ public class Main extends Application{
         
         EvaluateCheck evaluated = new EvaluateCheck();
         
-        Buttons buttons = new Buttons("+", "-", "*", "/", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "=", "Delete", "Clear");
+        Buttons buttons = new Buttons("+", "-", "*", "/", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "=", "Delete", "Clear", "^", "(", ")");
         
         BreakCount breakCount = new BreakCount();
         
@@ -82,6 +82,9 @@ public class Main extends Application{
         buttons.buttons[7].setLayoutX(164);
         buttons.buttons[7].setLayoutY(326);
         
+        buttons.buttons[19].setLayoutX(241);
+        buttons.buttons[19].setLayoutY(326);
+        
         
         buttons.buttons[8].setLayoutX(10);
         buttons.buttons[8].setLayoutY(274);
@@ -92,6 +95,9 @@ public class Main extends Application{
         buttons.buttons[10].setLayoutX(164);
         buttons.buttons[10].setLayoutY(274);
         
+        buttons.buttons[18].setLayoutX(241);
+        buttons.buttons[18].setLayoutY(274);
+        
         
         buttons.buttons[11].setLayoutX(10);
         buttons.buttons[11].setLayoutY(222);
@@ -101,6 +107,9 @@ public class Main extends Application{
         
         buttons.buttons[13].setLayoutX(164);
         buttons.buttons[13].setLayoutY(222);
+        
+        buttons.buttons[17].setLayoutX(241);
+        buttons.buttons[17].setLayoutY(222);
         
         
         buttons.buttons[14].setLayoutX(10);
